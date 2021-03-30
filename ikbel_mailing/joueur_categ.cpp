@@ -14,7 +14,8 @@
 #include <QTextDocument>
 
 #include"exportexcelobject.h"
-
+#include "smtp_joueur.h"
+#include "email.h"
 joueur_categ::joueur_categ(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::joueur_categ)
@@ -383,4 +384,12 @@ void joueur_categ::on_Annuler_2_clicked()
        player->play();
        qDebug()<<player ->errorString();*/
 
+}
+
+void joueur_categ::on_mailing_clicked()
+{
+    QDialog *d=new Dialog(this);
+    d->show();
+
+    d->exec();
 }

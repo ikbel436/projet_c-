@@ -67,6 +67,8 @@ private slots:
 
     void on_Annuler_2_clicked();
 
+    void on_mailing_clicked();
+
 private:
     Ui::joueur_categ *ui;
     QIntValidator*roll;

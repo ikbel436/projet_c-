@@ -431,7 +431,7 @@
           <string>TRI PAR :</string>
          </property>
         </widget>
-        <widget class="QPushButton" name="excel">
+        <widget class="QPushButton" name="mailing">
          <property name="geometry">
           <rect>
            <x>440</x>
@@ -450,7 +450,7 @@
 	selection-color: rgb(60, 63, 65);</string>
          </property>
          <property name="text">
-          <string>Generer EXCEL</string>
+          <string>Mailing</string>
          </property>
          <property name="icon">
           <iconset>
@@ -880,7 +880,7 @@
       </rect>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>1</number>
      </property>
      <widget class="QWidget" name="page_3">
       <widget class="QLabel" name="label_9">

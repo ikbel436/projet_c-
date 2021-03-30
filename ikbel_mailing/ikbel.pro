@@ -18,21 +18,26 @@ CONFIG += c++11
 SOURCES += \
     categories.cpp \
     connection.cpp \
+    email.cpp \
     exportexcelobject.cpp \
     joueur_categ.cpp \
     joueurs.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    smtp_joueur.cpp
 
 HEADERS += \
     categories.h \
     connection.h \
+    email.h \
     exportexcelobject.h \
     joueur_categ.h \
     joueurs.h \
-    mainwindow.h
+    mainwindow.h \
+    smtp_joueur.h
 
 FORMS += \
+    email.ui \
     joueur_categ.ui \
     mainwindow.ui
 
