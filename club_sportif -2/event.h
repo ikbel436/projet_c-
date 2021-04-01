@@ -6,7 +6,7 @@
 #include <QSqlQueryModel>
 #include <QtCore/qglobal.h>
 #include <QDate>
-#include "event_sponsor.h"
+#include "sport.h"
 class EVENT
 {
 public:

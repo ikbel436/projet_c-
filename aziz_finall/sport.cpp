@@ -7,7 +7,7 @@
 #include <QTextDocument>
 #include <QTextDocument>
 #include <QMessageBox>
-
+#include <QPainter>
 #include "sport_entraineur.h"
 #include "ui_sport_entraineur.h"
 #include<QTextDocument>
@@ -147,3 +147,34 @@ void sport::Tri_DAT(Ui::sport_entraineur *ui)
 }
 
 
+void sport::image()
+{ QImage image(450, 200, QImage::Format_ARGB32_Premultiplied);
+    QPainter painter(&image);
+    painter.fillRect(image.rect(), Qt::yellow);
+    QSqlQuery q;
+            q.prepare("SELECT * FROM sport ");
+            q.exec();
+            while(q.next())
+            {
+                QString image1,image2;
+                image1=q.value(1).toString();
+                image2=q.value(2).toString();
+    painter.drawText(image.rect(), Qt::AlignCenter | Qt::AlignLeft,image1);
+    image.save("output.png");
+            }
+    QMessageBox::information(nullptr, QObject::tr("OK"),
+                QObject::tr("ajout de l'image succesful.\n"
+                            "Click Cancel to exit."), QMessageBox::Cancel);
+
+}
+
+
+int sport::getValide()
+{
+    return valide;
+}
+
+void sport::setValide()
+{
+valide=1;
+}

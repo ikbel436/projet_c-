@@ -186,7 +186,7 @@
         <string>Valider</string>
        </property>
        <property name="icon">
-        <iconset resource="../aziz/images.qrc">
+        <iconset resource="images.qrc">
          <normaloff>:/icons/icons8_checkmark_96px.png</normaloff>:/icons/icons8_checkmark_96px.png</iconset>
        </property>
       </widget>
@@ -234,7 +234,7 @@
 color: rgb(255, 255, 127);</string>
        </property>
       </widget>
-      <widget class="QLabel" name="text_nom">
+      <widget class="QLabel" name="text_noms">
        <property name="geometry">
         <rect>
          <x>220</x>
@@ -265,7 +265,7 @@ color: rgb(255, 255, 127);</string>
         <string/>
        </property>
        <property name="icon">
-        <iconset resource="../aziz/images.qrc">
+        <iconset resource="images.qrc">
          <normaloff>:/icons/icons8_coach_240px.png</normaloff>:/icons/icons8_coach_240px.png</iconset>
        </property>
        <property name="iconSize">
@@ -367,11 +367,11 @@ color: rgb(255, 255, 127);</string>
           <string>TRI PAR :</string>
          </property>
         </widget>
-        <widget class="QPushButton" name="pdf_2">
+        <widget class="QPushButton" name="image">
          <property name="geometry">
           <rect>
-           <x>300</x>
-           <y>500</y>
+           <x>240</x>
+           <y>490</y>
            <width>111</width>
            <height>31</height>
           </rect>
@@ -396,8 +396,8 @@ color: rgb(255, 255, 127);</string>
         <widget class="QPushButton" name="supprimer">
          <property name="geometry">
           <rect>
-           <x>500</x>
-           <y>500</y>
+           <x>440</x>
+           <y>490</y>
            <width>111</width>
            <height>31</height>
           </rect>
@@ -522,7 +522,7 @@ selection-color: rgb(0, 0, 255);</string>
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="../aziz/images.qrc">
+          <iconset resource="images.qrc">
            <normaloff>:/icons/icons8_american_football_player_96px.png</normaloff>:/icons/icons8_american_football_player_96px.png</iconset>
          </property>
          <property name="iconSize">
@@ -631,7 +631,7 @@ selection-color: rgb(0, 0, 255);</string>
           <string>modifier</string>
          </property>
          <property name="icon">
-          <iconset resource="../aziz/images.qrc">
+          <iconset resource="images.qrc">
            <normaloff>:/icons/icons8_checkmark_96px.png</normaloff>:/icons/icons8_checkmark_96px.png</iconset>
          </property>
         </widget>
@@ -670,7 +670,7 @@ selection-color: rgb(0, 0, 255);</string>
           <string>Retour</string>
          </property>
          <property name="icon">
-          <iconset resource="../aziz/images.qrc">
+          <iconset resource="images.qrc">
            <normaloff>:/icons/icons8_back_to_200px.png</normaloff>:/icons/icons8_back_to_200px.png</iconset>
          </property>
         </widget>
@@ -768,7 +768,7 @@ selection-color: rgb(0, 0, 255);</string>
       </rect>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>1</number>
      </property>
      <widget class="QWidget" name="page_12">
       <widget class="QLineEdit" name="email_ent">
@@ -914,7 +914,7 @@ selection-color: rgb(0, 0, 255);</string>
         <enum>Qt::RichText</enum>
        </property>
       </widget>
-      <widget class="QLabel" name="text_adresse">
+      <widget class="QLabel" name="text_prenom">
        <property name="geometry">
         <rect>
          <x>370</x>
@@ -951,7 +951,7 @@ selection-color: rgb(0, 0, 255);</string>
 	selection-color: rgb(60, 63, 65);</string>
        </property>
       </widget>
-      <widget class="QLabel" name="text_noms">
+      <widget class="QLabel" name="text_nom">
        <property name="geometry">
         <rect>
          <x>380</x>
@@ -1019,7 +1019,7 @@ selection-color: rgb(0, 0, 255);</string>
         <string/>
        </property>
        <property name="icon">
-        <iconset resource="../aziz/images.qrc">
+        <iconset resource="images.qrc">
          <normaloff>:/icons/icons8_update_user_160px_1.png</normaloff>:/icons/icons8_update_user_160px_1.png</iconset>
        </property>
        <property name="iconSize">
@@ -1216,7 +1216,7 @@ selection-color: rgb(0, 0, 255);</string>
          <normaloff>:/logo/delete.png</normaloff>:/logo/delete.png</iconset>
        </property>
       </widget>
-      <widget class="QPushButton" name="mailing_2">
+      <widget class="QPushButton" name="mailing">
        <property name="geometry">
         <rect>
          <x>350</x>
@@ -1291,7 +1291,7 @@ selection-color: rgb(0, 0, 255);</string>
         <string/>
        </property>
        <property name="icon">
-        <iconset resource="../aziz/images.qrc">
+        <iconset resource="images.qrc">
          <normaloff>:/icons/icons8_add_user_male_200px.png</normaloff>:/icons/icons8_add_user_male_200px.png</iconset>
        </property>
        <property name="iconSize">
@@ -1345,7 +1345,7 @@ selection-color: rgb(0, 0, 255);</string>
         </font>
        </property>
        <property name="text">
-        <string>modification de SPONSOR dont   ID est : </string>
+        <string>modification de entraineur dont   ID est : </string>
        </property>
        <property name="textFormat">
         <enum>Qt::RichText</enum>
@@ -1469,7 +1469,7 @@ selection-color: rgb(0, 0, 255);</string>
         <string>modifier</string>
        </property>
        <property name="icon">
-        <iconset resource="../aziz/images.qrc">
+        <iconset resource="images.qrc">
          <normaloff>:/icons/icons8_checkmark_96px.png</normaloff>:/icons/icons8_checkmark_96px.png</iconset>
        </property>
       </widget>
@@ -1495,7 +1495,7 @@ selection-color: rgb(0, 0, 255);</string>
         <string>Retour</string>
        </property>
        <property name="icon">
-        <iconset resource="../aziz/images.qrc">
+        <iconset resource="images.qrc">
          <normaloff>:/icons/icons8_back_to_200px.png</normaloff>:/icons/icons8_back_to_200px.png</iconset>
        </property>
       </widget>
@@ -1555,6 +1555,8 @@ selection-color: rgb(0, 0, 255);</string>
    </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
  <connections/>
 </ui>

@@ -9,7 +9,7 @@
 #include <QTextDocument>
 #include <QMessageBox>
 
-#include "event_sponsor.h"
+#include "sport.h"
 #include "ui_event_sponsor.h"
 #include<QTextDocument>
 

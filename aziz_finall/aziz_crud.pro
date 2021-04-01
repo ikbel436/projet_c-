@@ -19,20 +19,25 @@ CONFIG += c++11
 
 SOURCES += \
     connection.cpp \
+    email_entraineur.cpp \
     entraineur.cpp \
     main.cpp \
     mainwindow.cpp \
+    smtp_entraineur.cpp \
     sport.cpp \
     sport_entraineur.cpp
 
 HEADERS += \
     connection.h \
+    email_entraineur.h \
     entraineur.h \
     mainwindow.h \
+    smtp_entraineur.h \
     sport.h \
     sport_entraineur.h
 
 FORMS += \
+    email_entraineur.ui \
     mainwindow.ui \
     sport_entraineur.ui
 
@@ -42,4 +47,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    images.qrc
+    images.qrc \
+    projet.qrc
+
+DISTFILES +=

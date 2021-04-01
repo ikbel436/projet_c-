@@ -33,6 +33,7 @@ void Tri_DAT(Ui:: sport_entraineur *ui) ;
  bool Supprimer_sport(Ui:: sport_entraineur *ui);
  bool modifier_sport (Ui:: sport_entraineur *ui);
 void Recherche_sport(Ui:: sport_entraineur *ui);
+void image();
 
 
 

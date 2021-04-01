@@ -1,19 +1,19 @@
-#ifndef SPORT_ENTRAINEUR_H
-#define SPORT_ENTRAINEUR_H
+#ifndef SPORT_H
+#define SPORT_H
 
 #include <QDialog>
 
 namespace Ui {
-class sport_entraineur;
+class event_sponsor;
 }
 
-class sport_entraineur : public QDialog
+class event_sponsor : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit sport_entraineur(QWidget *parent = nullptr);
-    ~sport_entraineur();
+    explicit event_sponsor(QWidget *parent = nullptr);
+    ~event_sponsor();
 private slots:
     //void on_annuler_clicked();
 
@@ -64,14 +64,8 @@ private slots:
 
     void on_Annuler_2_clicked();
 
-    void on_sport_clicked();
-
-    void on_traiter_clicked();
-
-    void on_entraineur_ajout_clicked();
-
 private:
-    Ui::sport_entraineur *ui;
+    Ui::event_sponsor *ui;
 };
 
-#endif // SPORT_ENTRAINEUR_H
+#endif // SPORT_H

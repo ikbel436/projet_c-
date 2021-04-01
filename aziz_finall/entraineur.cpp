@@ -200,4 +200,13 @@ void entraineur::pdf(Ui:: sport_entraineur *ui)
 */
 
 
+int entraineur::getValide()
+{
+    return valide;
+}
+
+void entraineur::setValide()
+{
+valide=1;
+}
 

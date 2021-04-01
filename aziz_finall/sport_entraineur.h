@@ -1,19 +1,19 @@
-#ifndef EVENT_SPONSOR_H
-#define EVENT_SPONSOR_H
-
+#ifndef SPORT_ENTRAINEUR_H
+#define SPORT_ENTRAINEUR_H
+#include <QSound>
 #include <QDialog>
 
 namespace Ui {
-class event_sponsor;
+class sport_entraineur;
 }
 
-class event_sponsor : public QDialog
+class sport_entraineur : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit event_sponsor(QWidget *parent = nullptr);
-    ~event_sponsor();
+    explicit sport_entraineur(QWidget *parent = nullptr);
+    ~sport_entraineur();
 private slots:
     //void on_annuler_clicked();
 
@@ -64,8 +64,23 @@ private slots:
 
     void on_Annuler_2_clicked();
 
+    void on_sport_clicked();
+
+    void on_traiter_clicked();
+
+    void on_entraineur_ajout_clicked();
+
+    void on_image_clicked();
+
+    void on_mailing_clicked();
+
+    void on_tableView_4_doubleClicked(const QModelIndex &index);
+
 private:
-    Ui::event_sponsor *ui;
+    Ui::sport_entraineur *ui;
+    QSound *son;
+            QSound *ajout;
+            QSound *supp;
 };
 
-#endif // EVENT_SPONSOR_H
+#endif // SPORT_ENTRAINEUR_H
