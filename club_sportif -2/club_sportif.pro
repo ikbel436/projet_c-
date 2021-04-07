@@ -19,23 +19,23 @@ CONFIG += c++11
 SOURCES += \
     connection.cpp \
     event.cpp \
-    event_sponsor.cpp \
     exportexcelobject.cpp \
     main.cpp \
     mainwindow.cpp \
-    sponsor.cpp
+    sponsor.cpp \
+    sport.cpp
 
 HEADERS += \
     connection.h \
     event.h \
-    event_sponsor.h \
     exportexcelobject.h \
     mainwindow.h \
-    sponsor.h
+    sponsor.h \
+    sport.h
 
 FORMS += \
-    event_sponsor.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    sport.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

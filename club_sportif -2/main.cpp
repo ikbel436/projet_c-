@@ -2,7 +2,7 @@
 #include "mainwindow.h"
 
 #include <QApplication>
-#include "event_sponsor.h"
+#include "sport.h"
 
 #include <QMessageBox>
 #include "connection.h"

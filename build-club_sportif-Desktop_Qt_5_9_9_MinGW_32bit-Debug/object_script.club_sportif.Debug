@@ -1,0 +1,13 @@
+INPUT(
+./debug\connection.o
+./debug\event.o
+./debug\event_sponsor.o
+./debug\exportexcelobject.o
+./debug\main.o
+./debug\mainwindow.o
+./debug\sponsor.o
+./debug\qrc_images.o
+./debug\moc_event_sponsor.o
+./debug\moc_exportexcelobject.o
+./debug\moc_mainwindow.o
+);
