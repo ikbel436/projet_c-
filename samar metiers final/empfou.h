@@ -66,6 +66,8 @@ private slots:
 
     void on_text_date_linkActivated(const QString &link);
 
+    void on_recherche_textChanged(const QString &arg1);
+
 private:
     Ui::empfou *ui;
     QSound *son;
