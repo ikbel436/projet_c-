@@ -60,11 +60,6 @@ void empfou::on_comboBox_currentIndexChanged(int index)
     {  e.Tri_PRENOM(ui);
 
     }
-    /*else if(index==2)
-    {  e.Tri_TEL(ui);
-
-    }*/
-
     else
     {e.Tri_SALAIRE(ui);
     }
@@ -72,14 +67,18 @@ void empfou::on_comboBox_currentIndexChanged(int index)
 
 
 
-
+/*
 void empfou::on_search_clicked()
 {
     EMPLOYES e;
     son->play();
-  e.Recherche(ui);
-
+ // e.Recherche(ui);
+    e.Recherche(ui);
 }
+*/
+
+
+
 
 void empfou::on_excel_clicked()
 {
@@ -114,14 +113,7 @@ void empfou::on_excel_clicked()
         }
 }
 
-/*
-void empfou::on_pdf_clicked()
-{
-EMPLOYES e;
-son->play();
-e.pdf(ui);
-}
-*/
+
 void empfou::on_tableView_doubleClicked(const QModelIndex &index)
 {
     ajout->play();
@@ -210,16 +202,16 @@ ajout->play();
         ui->text_lieu->setText(msg_vide);
 
     }
-    if ((SALAIRE<10)||(SALAIRE>10000))
+   /*if ((SALAIRE>10)||(SALAIRE<10000))
     {
         ui->nb->setStyleSheet("QLineEdit { color: red;}");
-        ui->text_nb->setText(msg_nb);
+        ui->text_nb->setText(msg_vide);
         ui->text_nb->setStyleSheet("QLabel { background-color : transparent; color : red; }");
         F.setValide();
     }
     else { ui->nb->setStyleSheet("QLineEdit { color: black;}");
         ui->text_nb->setText(msg_vide);
-
+*/
 
     if ((TEL<0)||(TEL>1000000000))
     {
@@ -272,7 +264,7 @@ ajout->play();
 
 
 
-}}}
+}}
 void empfou::on_Annuler_clicked()
 {
     ui->stackedWidget->setCurrentIndex(0);
@@ -421,15 +413,7 @@ ajout->play();
 
         }
 
-        /*
-        if(tel.size()==8)
-        {ui->tel->setStyleSheet("QLineEdit { color: black;}");
-            ui->text_tel->setText(msg_vide);}
-        else {
-            ui->tel->setStyleSheet("QLineEdit { color: red;}");
-            ui->text_tel->setText(msg_tel);
-            ui->text_tel->setStyleSheet("QLabel { background-color : transparent; color : red; }");
-        }*/
+
        if (F.getValide()==0){
         //bool test=F.ajouter();
         if(F.ajouter()){
@@ -471,4 +455,18 @@ void empfou::on_sponsor_ajout_clicked()
 void empfou::on_Annuler_2_clicked()
 {   son->play();
     ui->stackedWidget_2->setCurrentIndex(1);
+}
+
+void empfou::on_recherche_textChanged(const QString &arg1)
+{
+    QString rech;
+          rech= arg1.toCaseFolded();
+            QSqlQueryModel * model= new QSqlQueryModel();
+        QSqlQuery* qry=new QSqlQuery();
+
+         qry->prepare("SELECT * from EMPLOYES where NOM like concat (:rech,'%')   or PRENOM like concat (:rech,'%') or EMAIL  like concat (:rech,'%') or TEL like concat (:rech,'%') or ROLE like concat (:rech,'%') or SALAIRE like concat (:rech,'%')  ");
+         qry->bindValue(":rech",rech);
+         qry->exec();
+         model->setQuery(*qry);
+         ui->tableView->setModel(model);
 }

@@ -126,7 +126,7 @@ void FOURNISSEURS::Recherche_FOURNISSEURS(Ui::empfou *ui)
     QSqlQuery q;
     QSqlQueryModel *modal=new QSqlQueryModel();
     QString rech =ui->recherche_2->text();
-    q.prepare("select * from FOURNISSEURS where ( TEL LIKE '%"+rech+"%' or NOM LIKE '%"+rech+"%' or adresse LIKE'%"+rech+"%' or PRENOM LIKE '%"+rech+"%' )");
+    q.prepare("select * from FOURNISSEURS where ( TEL LIKE '%"+rech+"%' or NOM LIKE '%"+rech+"%' or PRENOM LIKE'%"+rech+"%' or EMAIL LIKE '%"+rech+"%' )");
 
     if ( q.exec() )
     { modal->setQuery(q);
@@ -143,20 +143,21 @@ void FOURNISSEURS::Tri_NOM_FOURNISSEURS(Ui::empfou *ui)
     model->setQuery(q);
     ui->tableView_2->setModel(model);
 }
-void FOURNISSEURS::Tri_TEL_FOURNISSEURS(Ui::empfou *ui)
-{
-    QSqlQuery q;
-    QSqlQueryModel *model=new QSqlQueryModel();
-    q.prepare("select * from FOURNISSEURS order by TEL");
-    q.exec();
-    model->setQuery(q);
-    ui->tableView_2->setModel(model);
-}
+
 void FOURNISSEURS::Tri_PRENOM_FOURNISSEURS(Ui::empfou *ui)
 {
     QSqlQuery q;
     QSqlQueryModel *model=new QSqlQueryModel();
     q.prepare("select * from FOURNISSEURS order by PRENOM");
+    q.exec();
+    model->setQuery(q);
+    ui->tableView_2->setModel(model);
+}
+void FOURNISSEURS::Tri_TEL_FOURNISSEURS(Ui::empfou *ui)
+{
+    QSqlQuery q;
+    QSqlQueryModel *model=new QSqlQueryModel();
+    q.prepare("select * from FOURNISSEURS order by TEL");
     q.exec();
     model->setQuery(q);
     ui->tableView_2->setModel(model);

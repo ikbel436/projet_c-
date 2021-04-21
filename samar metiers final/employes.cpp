@@ -155,20 +155,20 @@ bool EMPLOYES::modifier(Ui::empfou *ui)
 
 
 
-
+/*
 void EMPLOYES::Recherche(Ui::empfou *ui)
 {
     QSqlQuery q;
     QSqlQueryModel *modal=new QSqlQueryModel();
     QString rech =ui->recherche->text();
-    q.prepare("select * from EMPLOYES where ( TEL LIKE '%"+rech+"%' or NOM LIKE '%"+rech+"%' or PRENOM LIKE'%"+rech+"%' or ROLE LIKE '%"+rech+"% or SALAIRE LIKE '%"+rech+"% or EMAIL LIKE '%"+rech+"%' )");
+    q.prepare("select * from EMPLOYES where ( NOM LIKE '%"+rech+"%' or PRENOM LIKE'%"+rech+"%' or ROLE LIKE '%"+rech+"% or SALAIRE LIKE '%"+rech+"% or EMAIL LIKE '%"+rech+"%' )");
 
     if ( q.exec() )
     { modal->setQuery(q);
       ui->tableView->setModel(modal);}
 
 }
-
+*/
 void EMPLOYES::Tri_NOM(Ui::empfou *ui)
 {
     QSqlQuery q;
