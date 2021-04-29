@@ -1,0 +1,14 @@
+INPUT(
+./debug\arduino.o
+./debug\connexion.o
+./debug\magasin.o
+./debug\main.o
+./debug\dialog.o
+./debug\produit.o
+./debug\qcustomplot.o
+./debug\statistiq.o
+./debug\qrc_Resources.o
+./debug\moc_dialog.o
+./debug\moc_qcustomplot.o
+./debug\moc_statistiq.o
+);

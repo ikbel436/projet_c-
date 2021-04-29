@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/aaaa.png</file>
+        <file>images/addmagasin.png</file>
+        <file>images/Erase.png</file>
+        <file>images/addproduct.png</file>
+        <file>images/modifier.png</file>
+        <file>images/add-button.png</file>
+        <file>images/pdf.png</file>
+        <file>images/logo.png</file>
+        <file>images/statistique.png</file>
+        <file>images/recherhche.png</file>
+        <file>images/gas.png</file>
+        <file>images/Mouse-Click-00-c-FesliyanStudios.com.wav</file>
+        <file>images/music (1).png</file>
+        <file>images/music.png</file>
+        <file>images/mute.png</file>
+        <file>images/pause (1).png</file>
+        <file>images/pause.png</file>
+        <file>images/plus.png</file>
+        <file>images/stop.png</file>
+        <file>images/music.mp3</file>
+        <file>images/audio.png</file>
+        <file>images/music-album.png</file>
+        <file>images/music-albom.png</file>
+        <file>images/background.jpg</file>
+        <file>images/shop.png</file>
+        <file>images/ajout.png</file>
+    </qresource>
+</RCC>
