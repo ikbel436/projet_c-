@@ -1,0 +1,17 @@
+release/arduino.o
+release/camera.o
+release/connection.o
+release/empfou.o
+release/employes.o
+release/exportexcelobject.o
+release/fournisseurs.o
+release/login.o
+release/main.o
+release/mainwindow.o
+release/produit.o
+release/qrc_projet.o
+release/moc_camera.o
+release/moc_empfou.o
+release/moc_exportexcelobject.o
+release/moc_login.o
+release/moc_mainwindow.o
