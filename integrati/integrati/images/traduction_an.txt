@@ -1,0 +1,45 @@
+L|label_nomp|Name
+L|label_nombrep|Number
+B|pushButton_sauvgarderproduit|Add
+R|radioButton_nomp|Sort by name
+E|lineEdit_idpr|6 digit id
+W|tabWidget_mp|4|Products|Shops|Historic|Temperature control
+G|groupBox_music_2|Music player
+L|label_prixp|Price
+L|label_categoriep|Category
+L|label_magasinp|Shop
+B|pushButton_modifierproduit|Modify
+B|pushButton_supprimerpr|Delete
+E|lineEdit_nompr|Name
+E|lineEdit_prixpr|Price
+B|pushButton_recherche_produit|Research
+E|lineEdit_rechercher_2|ID/NAME/CATEGORY
+B|pushButton_2|PDF
+B|pushButton_3|STAT
+R|radioButton_prixp|Sort by price
+W|tabWidget_produit|2|Add Product|Show product
+W|tabWidget_mag|2|Add shop|Show shop
+L|label_nomm|Name
+L|label_adressem|Adress
+L|label_nombreblocm|Number of blocks
+B|btn_ajout_mag|Add
+B|btn_modifier_mag|Modify
+B|btn_supp_mag|Delete
+E|Edit_idm|6 digit id
+E|Edit_nomm|Name
+E|Edit_adressem|Adress
+E|Edit_blocm|Number of blocks
+B|pushButton_recherche|Research
+E|lineEdit_rechercher|ID/NAME/BLOCK
+R|radioButton_idm|Sort by ID
+R|radioButton_nomm|Sort by name
+R|radioButton_blocm|Sort by block
+L|label_ajouterpr|ADD
+L|label_ajouter_mag|ADD
+B|pushButton_supphistory|Delete
+E|lineEdit_nombrepr|Number
+L|label_produit_5|Product Management
+L|label_gestionmag|Magasin Management
+L|label_controle_temp|Temperature Control
+L|temp_label_7|Arduino Board
+L|temp_label_8|Alarm
