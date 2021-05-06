@@ -1,0 +1,45 @@
+L|label_nomp|Nom
+L|label_nombrep|Nombre
+B|pushButton_sauvgarderproduit|Ajouter
+R|radioButton_nomp|Tri par nom
+E|lineEdit_idpr|ID de 6 chiffres
+W|tabWidget_mp|4|Produits|Magasins|Historique|Controle de temperature
+G|groupBox_music_2|Lecteur de musique
+L|label_prixp|Prix
+L|label_categoriep|Categorie
+L|label_magasinp|Magasin
+B|pushButton_modifierproduit|Modifier
+B|pushButton_supprimerpr|Supprimer
+E|lineEdit_nompr|Nom
+E|lineEdit_prixpr|Prix
+B|pushButton_recherche_produit|Recherche
+E|lineEdit_rechercher_2|ID/NOM/CATEGORIE
+B|pushButton_2|PDF
+B|pushButton_3|STAT
+R|radioButton_prixp|Tri par prix
+W|tabWidget_produit|2|Ajouter produit|Afficher produit
+W|tabWidget_mag|2|Ajouter magasin|Afficher magasin 
+L|label_nomm|Nom
+L|label_adressem|Adresse
+L|label_nombreblocm|Nombre de blocs
+B|btn_ajout_mag|Ajouter
+B|btn_modifier_mag|Modifier
+B|btn_supp_mag|Supprimer
+E|Edit_idm|ID de 6 chiffres
+E|Edit_nomm|Nom
+E|Edit_adressem|Adresse
+E|Edit_blocm|Nombre de blocs
+B|pushButton_recherche|Recherche
+E|lineEdit_rechercher|ID/NOM/BLOC
+R|radioButton_idm|Tri par id 
+R|radioButton_nomm|Tri par nom
+R|radioButton_blocm|Tri par bloc
+L|label_ajouterpr|Ajouter
+L|label_ajouter_mag|Ajouter
+B|pushButton_supphistory|Supprimer
+E|lineEdit_nombrepr|Nombre
+L|label_produit_5|GESTION DES PRODUITS
+L|label_gestionmag|GESTION DES MAGASINS
+L|label_controle_temp|Controle de temperature
+L|temp_label_7|Carte Arduino
+L|temp_label_8|Sonnerie
