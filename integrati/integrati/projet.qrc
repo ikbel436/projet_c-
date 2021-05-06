@@ -1,0 +1,78 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>icons/35.jpg</file>
+        <file>icons/523146.png</file>
+        <file>icons/1458512 (1).png</file>
+        <file>icons/1458512.svg</file>
+        <file>icons/2558944.png</file>
+        <file>icons/86547819-icône-du-sponsor.jpg</file>
+        <file>icons/icons8_add_user_male_200px.png</file>
+        <file>icons/icons8_american_football_player_96px.png</file>
+        <file>icons/icons8_back_to_200px.png</file>
+        <file>icons/icons8_checkmark_96px.png</file>
+        <file>icons/icons8_coach_240px.png</file>
+        <file>icons/icons8_home_48px.png</file>
+        <file>icons/icons8_update_user_160px_1.png</file>
+        <file>icons/téléchargement.jpg</file>
+        <file>sons/ajouter.wav</file>
+        <file>sons/bruit-clic.wav</file>
+        <file>sons/mailing.wav</file>
+        <file>sons/supprimer.wav</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>images/aaaa.png</file>
+        <file>images/add-button.png</file>
+        <file>images/add.png</file>
+        <file>images/addmagasin.png</file>
+        <file>images/addproduct.png</file>
+        <file>images/ajout.png</file>
+        <file>images/alarme.png</file>
+        <file>images/alpha.png</file>
+        <file>images/analytics.png</file>
+        <file>images/arduino.png</file>
+        <file>images/audio.png</file>
+        <file>images/background.jpg</file>
+        <file>images/buy.png</file>
+        <file>images/clock.png</file>
+        <file>images/clubsportif.jpg</file>
+        <file>images/english-language.png</file>
+        <file>images/Erase.png</file>
+        <file>images/eye.png</file>
+        <file>images/france.png</file>
+        <file>images/gas.png</file>
+        <file>images/haya.png</file>
+        <file>images/high-temperature.png</file>
+        <file>images/icons8_home_48px.png</file>
+        <file>images/imf.jpg</file>
+        <file>images/logo.png</file>
+        <file>images/modifier.png</file>
+        <file>images/Mouse-Click-00-c-FesliyanStudios.com.wav</file>
+        <file>images/music (1).png</file>
+        <file>images/music-albom.png</file>
+        <file>images/music-album.png</file>
+        <file>images/music.mp3</file>
+        <file>images/music.png</file>
+        <file>images/mute.png</file>
+        <file>images/number.png</file>
+        <file>images/OP.jpg</file>
+        <file>images/pause (1).png</file>
+        <file>images/pause.png</file>
+        <file>images/pdf.png</file>
+        <file>images/plus.png</file>
+        <file>images/recherhche.png</file>
+        <file>images/shop.png</file>
+        <file>images/sort.png</file>
+        <file>images/sport.png</file>
+        <file>images/statistics.png</file>
+        <file>images/statistique.png</file>
+        <file>images/stop.png</file>
+        <file>images/temperature.png</file>
+        <file>images/thermometerr.png</file>
+        <file>images/titre.png</file>
+        <file>images/united-kingdom.png</file>
+        <file>images/usb-port.png</file>
+        <file>images/usb.png</file>
+        <file>images/traduction_an.txt</file>
+        <file>images/traduction_fr.txt</file>
+    </qresource>
+</RCC>
