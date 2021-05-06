@@ -1,8 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>sons/ajouter.wav</file>
-        <file>sons/bruit-clic.wav</file>
-        <file>sons/mailing.wav</file>
-        <file>sons/supprimer.wav</file>
-    </qresource>
-</RCC>
